@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+cd username.github.io
+echo "Hello World" > index.html
 <html lang="en">
 <head>
   <meta charset="UTF-8">
