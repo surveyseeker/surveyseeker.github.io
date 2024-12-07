@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-cd username.github.io
+cd surveyseeker.github.io
 echo "Hello World" > index.html
 <html lang="en">
 <head>
