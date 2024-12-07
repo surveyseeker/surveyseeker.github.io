@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Unknown E-Book</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f4f4f9;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .container h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .container p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Unknown E-Book</h1>
+    <p>"Uncover the secrets... or don't."</p>
+  </header>
+
+  <div class="container">
+    <h2>What Is This E-Book?</h2>
+    <p>
+      They say curiosity killed the cat... but satisfaction brought it back. 
+      This e-book holds answers to questions you may not even know to ask. 
+      Is it profound? Is it short? Could it change your life—or leave you wondering why you ever purchased it? The only way to know is to take the leap.
+    </p>
+
+    <h2>Why Should You Buy It?</h2>
+    <p>
+      That's entirely up to you. Some say it's worth it for the mystery alone. Others can't stop talking about the ending—or lack thereof. A few claim to have uncovered its hidden message. One thing's for sure: you won't forget it anytime soon.
+    </p>
+
+    <a href="#" class="btn" id="buyBtn">Buy the E-Book - $9.99</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 The Unknown E-Book. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('buyBtn').addEventListener('click', function() {
+      alert('Thank you for your interest! Buying functionality will be added soon.');
+    });
+  </script>
+</body>
+</html>
